@@ -1,9 +1,7 @@
 public enum DiscountType {
 
-    BOGOF("Bogof", 1.0),
     LOYALTYCARD("LoyaltyCard", 0.02),
-    HIGHSPENDER("HighSpender", 0.1),
-    FULLPRICE("FullPrice", 0.0);
+    HIGHSPENDER("HighSpender", 0.1);
 
     private String name;
     private double value;

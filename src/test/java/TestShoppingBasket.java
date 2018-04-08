@@ -15,9 +15,9 @@ public class TestShoppingBasket {
     @Before
 
     public void before(){
-        beans = new Product("Heinz baked beans", 6.00);
-        whisky = new Product("Johny Walker", 25.00);
-        caviar = new Product("Beluga Finest", 20.00);
+        beans = new Product("Heinz baked beans", 6.00, true);
+        whisky = new Product("Johny Walker", 25.00, true);
+        caviar = new Product("Beluga Finest", 20.00, true);
         shoppingBasket = new ShoppingBasket();
         dave = new Customer(true);
     }
@@ -90,5 +90,6 @@ public class TestShoppingBasket {
         shoppingBasket.addProduct(caviar);
         shoppingBasket.addProduct(whisky);
         assertEquals(44.10, shoppingBasket.loyaltyCardHolderDiscount(dave), 0.01);
+        assertEquals(2, shoppingBasket.getProductCount());
     }
 }

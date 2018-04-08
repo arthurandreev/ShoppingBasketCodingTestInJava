@@ -10,7 +10,7 @@ public class TestProduct {
 
     @Before
     public void before(){
-        bread = new Product("White Bread", 1.99);
+        bread = new Product("White Bread", 1.99, true);
     }
 
     @Test
@@ -27,6 +27,11 @@ public class TestProduct {
     public void canSetAndGetDiscountType(){
         bread.setDiscountType(discountType.HIGHSPENDER);
         assertEquals(discountType.HIGHSPENDER, bread.getDiscountType());
+    }
+
+    @Test
+    public void canGetBogof(){
+        assertEquals(true, bread.getBuyOneGetOneFreeItem());
     }
 
 }

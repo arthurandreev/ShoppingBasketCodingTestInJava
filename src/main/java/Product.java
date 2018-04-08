@@ -3,12 +3,14 @@ public class Product {
     private String name;
     private double price;
     private DiscountType discountType;
+    private boolean buyOneGetOneFreeItem;
 
 
-    public Product(String name, double price){
+    public Product(String name, double price, boolean buyOneGetOneFreeItem){
         this.name = name;
         this.price = price;
         this.discountType = discountType;
+        this.buyOneGetOneFreeItem = buyOneGetOneFreeItem;
     }
 
     public String getName() {
@@ -25,5 +27,9 @@ public class Product {
 
     public void setDiscountType(DiscountType discountType){
         this.discountType = discountType;
+    }
+
+    public boolean getBuyOneGetOneFreeItem(){
+        return this.buyOneGetOneFreeItem;
     }
 }

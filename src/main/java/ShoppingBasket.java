@@ -39,7 +39,7 @@ public class ShoppingBasket {
 
         return total;
     }
-
+//highspender discount method
     public double highSpenderDiscount() {
         double total = subtotal();
         if (total > 20.00) {
@@ -47,7 +47,7 @@ public class ShoppingBasket {
         }
         return total;
     }
-
+//loyalty cardholder discount method
     public double loyaltyCardHolderDiscount(Customer customer) {
         double total = subtotal();
         if (customer.getLoyaltyCardHolderStatus() == true) {
@@ -55,8 +55,8 @@ public class ShoppingBasket {
         }
         return total;
     }
-
-    public double calculateTotal(Customer customer) {
+        //calculates total price of basket including all the relevant discounts
+    public double calculateTotal(Customer customer, Product item) {
         double total = subtotal();
 
         //high spenders who spend over 20 pounds get a discount of 10%
@@ -68,32 +68,13 @@ public class ShoppingBasket {
         if (customer.getLoyaltyCardHolderStatus() == true) {
             total -= (total * discountType.LOYALTYCARD.getValue());
         }
+        //buy one get one free method discount
+//        if (item.getBuyOneGetOneFreeItem() == true){
+//            products.add(item);
+//            total -= (total - item.getPrice());
+//        }
         return total;
     }
 
     }
-
-// switch case statement
-//    public double applyDiscounts() {
-//        double total = subtotal();
-//        switch (product.getDiscountType()) {
-//            case BOGOF:
-//                products.add(product);
-//                total = (total - product.getPrice());
-//                break;
-//            case HIGHSPENDER:
-//                if (subtotal() > 10.00) {
-//                    total -= (total * discountType.getValue());
-//                }
-//                break;
-//            case LOYALTYCARD:
-//                total -= (total * discountType.getValue());
-//                break;
-//
-//            default:
-//                return subtotal();
-//        }
-//
-//        return total;
-//    }
 
