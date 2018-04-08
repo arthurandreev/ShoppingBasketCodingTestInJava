@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0214d18e-5fcb-4a49-9271-00423faba600" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/DiscountType.java" afterPath="$PROJECT_DIR$/src/main/java/DiscountType.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Product.java" afterPath="$PROJECT_DIR$/src/main/java/Product.java" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ShoppingBasket.java" afterPath="$PROJECT_DIR$/src/main/java/ShoppingBasket.java" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/TestProduct.java" afterPath="$PROJECT_DIR$/src/test/java/TestProduct.java" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/TestShoppingBasket.java" afterPath="$PROJECT_DIR$/src/test/java/TestShoppingBasket.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -24,7 +21,7 @@
     </projectState>
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.47274438">
+    <splitter split-orientation="horizontal" split-proportion="0.5169173">
       <split-first>
         <leaf>
           <file leaf-file-name="Customer.java" pinned="false" current-in-tab="false">
@@ -45,8 +42,8 @@
           <file leaf-file-name="ShoppingBasket.java" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/main/java/ShoppingBasket.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="272">
-                  <caret line="78" column="5" lean-forward="false" selection-start-line="78" selection-start-column="5" selection-end-line="78" selection-end-column="5" />
+                <state relative-caret-position="580">
+                  <caret line="63" column="49" lean-forward="true" selection-start-line="63" selection-start-column="49" selection-end-line="63" selection-end-column="49" />
                   <folding>
                     <element signature="e#227#228#0" expanded="true" />
                     <element signature="e#283#284#0" expanded="true" />
@@ -117,7 +114,7 @@
           <file leaf-file-name="TestShoppingBasket.java" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/test/java/TestShoppingBasket.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="243">
+                <state relative-caret-position="1380">
                   <caret line="92" column="22" lean-forward="false" selection-start-line="92" selection-start-column="22" selection-end-line="92" selection-end-column="22" />
                   <folding>
                     <element signature="imports" expanded="true" />
@@ -768,26 +765,8 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="All_in_shoppingcart_test - 2018.04.08 at 17h 49m 23s.xml">
-      <configuration name="All in shoppingcart_test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="All_in_shoppingcart_test - 2018.04.08 at 17h 52m 39s.xml">
-      <configuration name="All in shoppingcart_test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="All_in_shoppingcart_test - 2018.04.08 at 19h 39m 49s.xml">
-      <configuration name="All in shoppingcart_test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="All_in_shoppingcart_test - 2018.04.08 at 19h 47m 37s.xml">
-      <configuration name="All in shoppingcart_test" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="All_in_shoppingcart_test - 2018.04.08 at 19h 52m 39s.xml">
       <configuration name="All in shoppingcart_test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestShoppingBasket_checkCalculateTotal - 2018.04.08 at 17h 48m 52s.xml">
-      <configuration name="TestShoppingBasket.checkCalculateTotal" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestShoppingBasket_checkCalculateTotal - 2018.04.08 at 17h 49m 01s.xml">
-      <configuration name="TestShoppingBasket.checkCalculateTotal" configurationId="JUnit" />
     </history-entry>
     <history-entry file="TestShoppingBasket_checkCalculateTotal - 2018.04.08 at 19h 59m 08s.xml">
       <configuration name="TestShoppingBasket.checkCalculateTotal" configurationId="JUnit" />
@@ -796,6 +775,24 @@
       <configuration name="TestShoppingBasket.checkCalculateTotal" configurationId="JUnit" />
     </history-entry>
     <history-entry file="TestShoppingBasket_checkCalculateTotal - 2018.04.08 at 20h 05m 02s.xml">
+      <configuration name="TestShoppingBasket.checkCalculateTotal" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestShoppingBasket_checkCalculateTotal - 2018.04.08 at 20h 10m 25s.xml">
+      <configuration name="TestShoppingBasket.checkCalculateTotal" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestShoppingBasket_checkCalculateTotal - 2018.04.08 at 20h 10m 39s.xml">
+      <configuration name="TestShoppingBasket.checkCalculateTotal" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestShoppingBasket_checkCalculateTotal - 2018.04.08 at 20h 27m 05s.xml">
+      <configuration name="TestShoppingBasket.checkCalculateTotal" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestShoppingBasket_checkCalculateTotal - 2018.04.08 at 20h 30m 10s.xml">
+      <configuration name="TestShoppingBasket.checkCalculateTotal" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestShoppingBasket_checkCalculateTotal - 2018.04.08 at 20h 32m 40s.xml">
+      <configuration name="TestShoppingBasket.checkCalculateTotal" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestShoppingBasket_checkCalculateTotal - 2018.04.08 at 20h 34m 30s.xml">
       <configuration name="TestShoppingBasket.checkCalculateTotal" configurationId="JUnit" />
     </history-entry>
   </component>
@@ -925,7 +922,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/TestShoppingBasket.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
+        <state relative-caret-position="1380">
           <caret line="92" column="22" lean-forward="false" selection-start-line="92" selection-start-column="22" selection-end-line="92" selection-end-column="22" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -937,8 +934,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ShoppingBasket.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="78" column="5" lean-forward="false" selection-start-line="78" selection-start-column="5" selection-end-line="78" selection-end-column="5" />
+        <state relative-caret-position="580">
+          <caret line="63" column="49" lean-forward="true" selection-start-line="63" selection-start-column="49" selection-end-line="63" selection-end-column="49" />
           <folding>
             <element signature="e#227#228#0" expanded="true" />
             <element signature="e#283#284#0" expanded="true" />
