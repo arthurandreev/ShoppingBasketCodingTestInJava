@@ -1,4 +1,4 @@
-# Shopping Basket Code Test  
+# Shopping Basket Code Test
 
 You have been asked to model a shopping basket.  
 
@@ -14,5 +14,5 @@ Additionally, you must be able to calculate the total value of the shopping bask
 
 You must be able to validate that the code works through passing tests.
 
-What we will be looking for:  
-Evidence of 'solid' coding techniques and test driven development.
+What we will be looking for:
+Evidence of SOLID coding techniques and test driven development.
