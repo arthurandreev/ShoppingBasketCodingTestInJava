@@ -41,28 +41,22 @@ public class ShoppingBasket {
     }
 
     //calculates total price with all relevant discounts due
-    public double calculateTotal(Customer customer, Product item) {
+    public double calculateTotal(Customer customer) {
         double total = subtotal();
+        //repeating code below out of necessity as no other way worked for me
+        if (total > 20.00) {
+            total -= (total * discountType.HIGHSPENDER.getValue());
+        }
 
-        switch(discountType) {
-
-            case HIGHSPENDER:
-                //high spenders get a discount of 10%
-                highSpenderDiscount();
-                break;
-
-            case LOYALTYCARD:
-                //loyalty card holders get a discount of 2%
-                loyaltyCardHolderDiscount(customer);
-                break;
+       if (customer.getLoyaltyCardHolderStatus() == true) {
+        total -= (total * discountType.LOYALTYCARD.getValue());
         }
         return total;
-
+}
 ////        buy one get one free method discount does not work
 //        if (item.getBuyOneGetOneFreeItem() == true){
 //            products.add(item);
 //            total -= (total - item.getPrice());
-        }
 
     //highspender discount method
     public double highSpenderDiscount() {

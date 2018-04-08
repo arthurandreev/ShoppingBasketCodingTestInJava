@@ -89,7 +89,7 @@ public class TestShoppingBasket {
     public void checkCalculateTotal(){
         shoppingBasket.addProduct(caviar);
         shoppingBasket.addProduct(whisky);
-        assertEquals(44.10, shoppingBasket.loyaltyCardHolderDiscount(dave), 0.01);
+        assertEquals(39.69, shoppingBasket.calculateTotal(dave), 0.01);
         assertEquals(2, shoppingBasket.getProductCount());
     }
 }
